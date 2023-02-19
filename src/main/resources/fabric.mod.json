@@ -10,16 +10,19 @@
   ],
   "contact": {
     "homepage": "https://dutchproductions.nl/",
-    "sources": "https://github.com/DutchPro"
+    "sources": "https://github.com/DutchProductions/TutorialModFabric"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/tutorialmod/icon.png",
+  "license": "GNU GPLv3",
+  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.dutchproductions.tutorialmod.TutorialMod"
+    ],
+    "client": [
+      "net.dutchproductions.tutorialmod.TutorialModClient"
     ]
   },
   "mixins": [
