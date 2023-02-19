@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tutorialmod",
+  "version": "${version}",
+
+  "name": "Tutorial Mod",
+  "description": "This is just a Tutorial Mod",
+  "authors": [
+    "DutchSlav"
+  ],
+  "contact": {
+    "homepage": "https://dutchproductions.nl/",
+    "sources": "https://github.com/DutchPro"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tutorialmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.dutchproductions.tutorialmod.TutorialMod"
+    ]
+  },
+  "mixins": [
+    "tutorialmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
